@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War Card Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="start-screen">
+        <h1>War Card Game</h1>
+        <div id="start-controls">
+            <button id="start-game-btn">Start Game</button>
+        </div>
+    </div>
+    <div id="game-area" style="display: none;">
+        <div id="players">
+            <div id="player1">
+                <h2>Player 1</h2>
+                <img id="player1-card" src="https://raw.githubusercontent.com/hayeah/playing-cards-assets/master/png/back.png" alt="Player 1 Card">
+                <p id="player1-score">Player 1: 0</p>
+                <p id="player1-card-count">Player 1 Cards: 26</p>
+            </div>
+            <div id="player2">
+                <h2>Player 2</h2>
+                <img id="player2-card" src="https://raw.githubusercontent.com/hayeah/playing-cards-assets/master/png/back.png" alt="Player 2 Card">
+                <p id="player2-score">Player 2: 0</p>
+                <p id="player2-card-count">Player 2 Cards: 26</p>
+            </div>
+        </div>
+        <div id="controls">
+            <button id="next-round-btn">Next Round</button>
+            <button id="reset-game-btn">Reset Game</button>
+            <button id="shuffle-deck-btn">Shuffle Deck</button>
+            <button id="end-game-btn">End Game</button> 
+        </div>
+    </div>
+    <button id="theme-toggle-btn">Toggle Light/Dark Mode</button>
+    <script src="scripts/script.js"></script>
+    <footer>
+        CIS: 196 0
+        Student: Jeremy Kirkpatrick
+        Project: Unit 1 Project - Game - War
+    </footer>
+</body>
+</html>

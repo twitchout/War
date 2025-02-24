@@ -1,0 +1,22 @@
+War Card Game - Implementation Plan
+
+1. Handling Images for Cards:
+   - Image Sourcing: Use standard card images or create custom ones.
+   - Image Naming Convention: <suit>_<rank>.png (e.g., hearts_ace.png)
+   - Storage: Store images in images/cards/
+   - Loading Images: Use JavaScript to dynamically load images.
+   - Fallback Mechanism: Display placeholder text of image file if loading fails.
+
+2. Implementing Light/Dark Mode:
+   - CSS Variables: Define colors for light/dark mode.
+   - Toggle Button: Add a button to switch modes.
+   - JavaScript Logic: Apply CSS class based on toggle button click.
+
+3. Shuffle Deck Button:
+   - Button Addition: Add "Shuffle Deck" button in UI.
+   - JavaScript Function: Create function to shuffle deck using Fisher-Yates algorithm.
+
+4. Interactive Card Reveals:
+   - Card Flip Animation: Use CSS for flip effect.
+   - Event Listeners: Trigger animation on card click.
+   - State Management: Update game state based on revealed cards.

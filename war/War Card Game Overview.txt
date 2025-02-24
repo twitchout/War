@@ -1,0 +1,17 @@
+War Card Game Overview:
+
+Objective:
+The goal of the game is to win all the cards.
+
+Setup:
+The deck is shuffled and evenly divided between two players.
+
+Gameplay:
+- Each player flips one card from the top of their deck.
+- The player with the higher card wins the round and takes both cards, adding them to their discard pile.
+- In the case of a tie (i.e., both players flip cards of the same rank), game does not award a point to either player. Next round will then need to be declared.
+
+Special Features:
+- I incorporated light/dark mode for a better user experience.
+- Then added a shuffle deck button to mix the cards in the deck.
+- I decided to go back and include interactive card reveals, making the game more engaging.

@@ -1,0 +1,1 @@
+LINK TO VIDEO: https://stc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6dcd1ca8-be62-42dc-80b4-b28e00246780

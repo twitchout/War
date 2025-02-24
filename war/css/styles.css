@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+footer {
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%
+}
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+#start-screen, #game-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.dark-mode button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #888;
+}
+
+.dark-mode button:hover {
+    background-color: #666;
+}
+
+#game-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game-area #player1, #game-area #player2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#players {
+    display: flex;
+    justify-content: center;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+}
+
+#start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#start-controls {
+    display: flex;
+    justify-content: center;
+}
+
+#player1-card, #player2-card {
+    transition: transform 0.2s;
+}
+
+#player1-card:hover, #player2-card:hover {
+    transform: scale(1.05);
+}

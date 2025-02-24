@@ -1,0 +1,13 @@
+war-card-game/
+├── index.html
+├── css/
+│   ├── styles.css
+├── js/
+│   ├── script.js
+│   	├── shuffle
+│   	├── light-dark-mode
+│   	└── card-reveal
+
+
+IMAGES - USED ONLINE GIT REPOSITORY, LINK: https://github.com/hayeah/playing-cards-assets?tab=readme-ov-file
+
