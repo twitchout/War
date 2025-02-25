@@ -91,6 +91,29 @@ function compareCards() {
         player1Score++;
     } else if (player1Value < player2Value) {
         player2Score++;
+    } else {
+        handleWar();
+    }
+
+    updateScores();
+}
+//update 2/24/25 - added function
+function handleWar() {
+    if (player1Deck.length > 0 && player2Deck.length > 0) {
+        const warCards = [player1Card, player2Card];
+        player1Card = player1Deck.shift();
+        player2Card = player2Deck.shift();
+        warCards.push(player1Card, player2Card);
+
+        if (valueMap[player1Card.value] > valueMap[player2Card.value]) {
+            player1Score += warCards.length / 2;
+        } else if (valueMap[player1Card.value] < valueMap[player2Card.value]) {
+            player2Score += warCards.length / 2;
+        } else {
+            handleWar(); // In case of another tie
+        }
+    } else {
+        endGame(); // If one of the players runs out of cards during the war
     }
 
     updateScores();
