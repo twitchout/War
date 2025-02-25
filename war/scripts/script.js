@@ -82,6 +82,7 @@ function dealDeck(deck) {
     return [player1Deck, player2Deck];
 }
 // this is the function that determines who the winner is. 
+// updated 2/24/25
 function compareCards() {
     const valueMap = { '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '10': 10, 'J': 11, 'Q': 12, 'K': 13, 'A': 14 };
     const player1Value = valueMap[player1Card.value];
@@ -97,7 +98,7 @@ function compareCards() {
 
     updateScores();
 }
-//update 2/24/25 - added function
+//update 2/24/25 - added function, updated compareCards
 function handleWar() {
     if (player1Deck.length > 0 && player2Deck.length > 0) {
         const warCards = [player1Card, player2Card];
